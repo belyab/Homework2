@@ -9,21 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var signInButton: UIButton!
+    
     @IBOutlet weak var tableView: UITableView!
     
     
-    let username = "Admin"
-    let password = "Admin"
-    
-    @IBAction func signInButton(_ sender: UIButton) {
-        if username == self.username && password == self.password {
-            performSegue(withIdentifier: "ContactTableViewCell", sender: nil))
-        }
-    }
+   
     
     var data : [ContactsCellData] = [ContactsCellData(image: UIImage(systemName: "person.fill") ?? UIImage(), name: "Elmira", surName: "Baigulova", job: "student", phoneNumber: "79273003444", comment:  "cool girl"),
                                      ContactsCellData(image: UIImage(systemName: "person.fill") ?? UIImage(), name: "Rinat", surName: "Baigulov", job: "designer", phoneNumber: "79273003444", comment:  " cool designer "),

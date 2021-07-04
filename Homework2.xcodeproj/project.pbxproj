@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D68D72FC2691BCA3007B5E46 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D72FB2691BCA3007B5E46 /* SignInViewController.swift */; };
 		D6C16EB7268F498D006B2216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C16EB6268F498D006B2216 /* AppDelegate.swift */; };
 		D6C16EB9268F498D006B2216 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C16EB8268F498D006B2216 /* SceneDelegate.swift */; };
 		D6C16EBB268F498D006B2216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C16EBA268F498D006B2216 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D68D72FB2691BCA3007B5E46 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D6C16EB3268F498D006B2216 /* Homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C16EB6268F498D006B2216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C16EB8268F498D006B2216 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		D6C16EB5268F498D006B2216 /* Homework2 */ = {
 			isa = PBXGroup;
 			children = (
+				D68D72FB2691BCA3007B5E46 /* SignInViewController.swift */,
 				D6C16EB6268F498D006B2216 /* AppDelegate.swift */,
 				D6C16EB8268F498D006B2216 /* SceneDelegate.swift */,
 				D6C16ECE268F4FFB006B2216 /* ContactTableViewCell.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				D6C16ECF268F4FFB006B2216 /* ContactTableViewCell.swift in Sources */,
 				D6C16EBB268F498D006B2216 /* ViewController.swift in Sources */,
+				D68D72FC2691BCA3007B5E46 /* SignInViewController.swift in Sources */,
 				D6C16ED1268F65CD006B2216 /* DetailViewController.swift in Sources */,
 				D6C16EB7268F498D006B2216 /* AppDelegate.swift in Sources */,
 				D6C16EB9268F498D006B2216 /* SceneDelegate.swift in Sources */,
